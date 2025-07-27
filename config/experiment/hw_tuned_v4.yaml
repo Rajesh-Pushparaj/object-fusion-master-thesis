@@ -1,0 +1,19 @@
+# @package _global_
+# run id: syz6thus
+defaults:
+  - override /dataset: highway
+
+training:
+    epochs: 10
+    class_weight_computation:
+      normalization: ENS
+    learning_rate: 0.000142955461863535
+    W_loss_bbox: 7.903337328786835
+    W_loss_ce: 7.722128848945408
+    W_loss_giou: 9.348646056256133
+    W_loss_motion: 4.138416762917951
+    W_match_bbox: 5.755486940490591
+    W_match_ce: 8.968520456568221
+    W_match_giou: 6.806982707038265
+
+save_model: True

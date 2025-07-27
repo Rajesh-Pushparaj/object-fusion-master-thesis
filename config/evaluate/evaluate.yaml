@@ -1,0 +1,4 @@
+model_state_path: "best_model_weights.pth"
+output_path: "results"
+visualization: True
+export_video: True

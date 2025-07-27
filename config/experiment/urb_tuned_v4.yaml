@@ -1,0 +1,19 @@
+# @package _global_
+# run id: syz6thus
+defaults:
+  - override /dataset: urban
+
+training:
+    epochs: 50
+    class_weight_computation:
+      normalization: ENS
+    learning_rate: 0.0002892914199082322
+    W_loss_bbox: 5.096675148958063
+    W_loss_ce: 4.541230105442444
+    W_loss_giou: 6.51036937184347
+    W_loss_motion: 6.070045951940353
+    W_match_bbox: 7.758939811896872
+    W_match_ce: 9.879694425131229
+    W_match_giou: 8.449014029248444
+
+save_model: True

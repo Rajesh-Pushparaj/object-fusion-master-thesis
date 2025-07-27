@@ -1,0 +1,14 @@
+defaults:
+  - _self_
+  - training: training
+  - dataset: dataset
+  - model: model
+  - evaluate: evaluate
+  - plot: plot
+
+wandb:
+  enable: True
+  watch: False
+
+output_path: "../logging/fusion_and_tracking_transformer/"
+save_model: False

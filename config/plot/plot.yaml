@@ -1,0 +1,36 @@
+# Path to results
+AKFA: "results_AKFA"
+HLFTF: "results_HLFTF"
+plots_path: "plots"
+
+# ego vehicle box 
+ego_cx: 0
+ego_cy: 0
+ego_l: 4.5
+ego_w: 1.5
+direction_arrow: True
+
+# axis limits
+x_min: -50
+x_max: 50
+y_min: -50
+y_max: 50
+
+# background face color
+facecolor: 'black' # 'whitesmoke', 'white'
+
+# Opacity of boxes
+alphaGT: 0.3
+alphaFO_HLFTF: 0.4
+alphaFO_AFKA: 0.6
+alphaDet: 1
+
+# Set items
+legends: True # to remove individual legends edit plot.py line 104
+labels: True  # to change labels edit plot.py line 108
+
+# Legend location
+legend_loc: 'upper right' # 'upper left', 'upper right', 'lower left', 'lower right', 'upper center', 'lower center', 'center left', 'center right'
+
+# Show plots
+show_plots: False

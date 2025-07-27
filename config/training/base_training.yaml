@@ -1,0 +1,15 @@
+learning_rate: ???
+epochs: ???
+
+W_loss_ce: 1.0
+W_match_ce: 1.0
+W_loss_bbox: 5.0
+W_match_bbox: 5.0
+W_loss_giou: 2.0
+W_match_giou: 2.0
+W_loss_motion: 1.0
+
+class_weight_computation:
+  normalization: INS # one of: INS, ISNS, ENS meaning: Inverse of Number of Samples, Inverse of Square Root of Number of Samples, Effective Number of Samples
+  beta: 0.9999
+  class_counts: ${dataset.class_counts}
