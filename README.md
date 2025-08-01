@@ -9,8 +9,6 @@ Author: Rajesh Pushparaj
 
 The project focuses on transformer-based architectures for fusing object-level detections from multi-modal sensors (camera and radar) to enhance perception in autonomous driving systems.
 
-## 📁 Contents
-
 ## 🧠 Abstract
 > This work proposes a transformer-based architecture for high-level multi-sensor object fusion in the context of autonomous driving. Compared to classical methods such as Kalman filters, the approach uses attention-based mechanisms to dynamically combine detections from diverse sensors under varying environmental conditions. The model significantly improves mean average precision (mAP), outperforming baseline fusion methods across multiple IoU thresholds.
 
