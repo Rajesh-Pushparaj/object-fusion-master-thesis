@@ -9,9 +9,6 @@ Author: Rajesh Pushparaj
 
 The project focuses on transformer-based architectures for fusing object-level detections from multi-modal sensors (camera and radar) to enhance perception in autonomous driving systems.
 
-## 📄 Thesis Report
-You can read the full thesis [here](thesis.pdf).
-
 ## 📁 Contents
 
 ## 🧠 Abstract
