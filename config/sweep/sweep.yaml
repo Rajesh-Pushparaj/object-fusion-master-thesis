@@ -1,0 +1,29 @@
+program: train.py
+name: Hyperparameter Tuning
+method: bayes
+metric:
+  goal: minimize
+  name: val_loss
+parameters:
+  training.W_loss_ce:
+    min: 1.0
+    max: 5.0
+  training.W_loss_bbox:
+    min: 1.0
+    max: 5.0
+  training.W_loss_giou:
+    min: 1.0
+    max: 5.0
+  training.W_loss_motion:
+    min: 1.0
+    max: 5.0
+  training.learning_rate:
+    min: 0.0001
+    max: 0.01
+    distribution: uniform
+
+command:
+  - ${env}
+  - python
+  - ${program}  
+  - ${args_no_hyphens}

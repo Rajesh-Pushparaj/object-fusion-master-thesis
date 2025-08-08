@@ -1,0 +1,5 @@
+# model-specific parameters
+dropout: 0.1
+bbox_drop: 0.1
+cls_drop: 0.1
+max_seq_len: 20

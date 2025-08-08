@@ -1,0 +1,17 @@
+defaults:
+  - base_training
+
+learning_rate: 0.00016152393643471583
+epochs: 50
+loss: loss
+loss_name: mse
+num_classes: 5
+
+W_loss_ce: 4.903495177683627
+W_loss_bbox: 3.8197723447647225
+W_loss_giou: 8.155474608939883
+W_loss_motion: 5.140208044249631
+
+W_match_ce: 4.903495177683627
+W_match_bbox: 3.8197723447647225
+W_match_giou: 8.155474608939883
