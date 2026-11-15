@@ -4,7 +4,7 @@
 > A DETR-style transformer that takes the object lists from **1 front camera + 4 corner radars** and outputs one fused set of objects. It is trained end-to-end against lidar ground truth and needs no hand-tuned association, gating or NMS.
 
 <p align="center">
-  <img src="docs/assets/hero_dark.svg" width="760" alt="Classical fusion vs. the two transformer models on real highway scenes: bird's-eye view of sensor detections, fused objects and lidar ground truth">
+  <img src="docs/assets/baseline_vs_transformer.svg" width="760" alt="Classical fusion vs. the two transformer models on real highway scenes: bird's-eye view of sensor detections, fused objects and lidar ground truth">
   <br><sub>One real highway frame (car beside the ego vehicle, truck ahead), bird's-eye view.<br>The classical baseline produces phantom, displaced and missed objects; both transformers recover the car and the truck.</sub>
 </p>
 
