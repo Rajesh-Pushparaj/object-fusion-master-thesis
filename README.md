@@ -75,16 +75,17 @@ I compared two variants:
 └── visualization*.py, plot.py
 ```
 
-## Running it
+## Code availability
+
+> [!NOTE]
+> **This repository is published to show the method and implementation; it cannot be run as-is.** The KISSaF driving recordings and the project-internal log-reading tools (`environment_model`, `SDFReader`) belong to a research project and are not publicly available.
+
+For reference, this is how the pipeline is driven when the data is available:
 
 ```bash
-pip install torch torchvision hydra-core omegaconf wandb einops scipy opencv-python pandas matplotlib tqdm
-
-python train.py +experiment=hw_tuned_v4   # train with a tuned experiment config
-python evaluate.py                        # compute AP / mAP
+python train.py +experiment=hw_tuned_v4   # train with a tuned Hydra experiment config
+python evaluate.py                        # compute AP / mAP at IoU 0.5 / 0.7 / 0.9
 ```
-
-> **Note on data:** the KISSaF recordings and the internal log-reading tools (`environment_model`, `SDFReader`) come from a research project and cannot be published. This repo shows the method and implementation, but it won't run end-to-end without that data.
 
 ## Future work
 
