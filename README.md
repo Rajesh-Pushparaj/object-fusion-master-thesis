@@ -80,13 +80,6 @@ I compared two variants:
 > [!NOTE]
 > **This repository is published to show the method and implementation; it cannot be run as-is.** The KISSaF driving recordings and the project-internal log-reading tools (`environment_model`, `SDFReader`) belong to a research project and are not publicly available.
 
-For reference, this is how the pipeline is driven when the data is available:
-
-```bash
-python train.py +experiment=hw_tuned_v4   # train with a tuned Hydra experiment config
-python evaluate.py                        # compute AP / mAP at IoU 0.5 / 0.7 / 0.9
-```
-
 ## Future work
 
 The fusion queries already work like object slots. Keeping them consistent from frame to frame, using temporal attention over the previous frame's queries, would extend the model to end-to-end **multi-object tracking**.
